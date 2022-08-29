@@ -69,7 +69,7 @@ class LinkedList():
         itr=self.head
         while itr:
             if itr.data==after_value:
-                itr.next= Node(value,itr.next.next)
+                itr.next= Node(value,itr.next)
                 break
             itr=itr.next
 
